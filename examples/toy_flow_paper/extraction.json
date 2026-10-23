@@ -1,0 +1,56 @@
+{
+  "features": {
+    "paper": {
+      "title": "SYNTHETIC toy paper: tracer residence time in a PFA coil",
+      "authors": ["(synthetic example, not a real paper)"],
+      "year": 2026
+    },
+    "rig": {
+      "components": [
+        {"id": "resA", "kind": "reservoir", "name": "dye feed",
+         "contents": {"dye": {"value": 0.05, "provenance": "paper_stated", "source": "Methods: 0.05 M dye solution"}}},
+        {"id": "resB", "kind": "reservoir", "name": "solvent feed"},
+        {"id": "pumpA", "kind": "pump",
+         "manufacturer": {"value": "VICI", "provenance": "paper_stated", "source": "Methods: VICI M6 pumps"},
+         "model": {"value": "M6", "provenance": "paper_stated", "source": "Methods: VICI M6 pumps"},
+         "flow_rate_uL_min": {"value": 250.0, "provenance": "paper_stated", "source": "Methods: each stream at 250 uL/min"}},
+        {"id": "pumpB", "kind": "pump",
+         "flow_rate_uL_min": {"value": 250.0, "provenance": "paper_stated", "source": "Methods: each stream at 250 uL/min"}},
+        {"id": "mixer", "kind": "mixer", "name": "T-mixer"},
+        {"id": "coil", "kind": "reactor", "name": "PFA coil reactor",
+         "material": {"value": "PFA", "provenance": "paper_stated", "source": "Methods: 10 m PFA coil"},
+         "length_mm": {"value": 10000.0, "provenance": "paper_stated", "source": "Methods: 10 m PFA coil"},
+         "temperature_C": {"value": 25.0, "provenance": "paper_stated", "source": "Methods: room temperature (25 C)"}},
+        {"id": "cell", "kind": "detector", "name": "UV-Vis flow cell",
+         "path_length_mm": {"value": 10.0, "provenance": "paper_stated", "source": "Methods: 10 mm flow cell"}},
+        {"id": "waste", "kind": "collection"}
+      ],
+      "connections": [
+        {"src": "resA", "dst": "pumpA"},
+        {"src": "resB", "dst": "pumpB"},
+        {"src": "pumpA", "dst": "mixer"},
+        {"src": "pumpB", "dst": "mixer"},
+        {"src": "mixer", "dst": "coil"},
+        {"src": "coil", "dst": "cell"},
+        {"src": "cell", "dst": "waste"}
+      ]
+    },
+    "chemistry": {
+      "reagents": [
+        {"name": "dye", "role": "tracer",
+         "concentration_M": {"value": 0.05, "provenance": "paper_stated", "source": "Methods: 0.05 M dye solution"}}
+      ]
+    },
+    "measurements": [
+      {"id": "abs", "instrument": "cell", "observable": "absorbance", "species": "dye"}
+    ],
+    "claims": [
+      {"id": "tau", "metric": "residence_time", "value": 10.0, "unit": "min",
+       "source": "Results: 'a reactor residence time of 10 min'"}
+    ]
+  },
+  "gaps": [
+    {"id": "extraction:environment.relative_humidity_pct", "target": "environment.relative_humidity_pct",
+     "description": "ambient humidity not reported", "detected_by": "extraction", "blocking": false}
+  ]
+}

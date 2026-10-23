@@ -1,0 +1,12 @@
+[
+  {"target": "rig.components.coil.inner_diameter_mm", "value": 0.762, "provenance": "measured",
+   "source": "our build: vendor spec 1/32 in ID, checked by caliper"},
+  {"target": "rig.components.mixer.volume_uL", "value": 2.5, "provenance": "inferred",
+   "note": "typical swept volume of a PEEK tee; confirm on the build"},
+  {"target": "rig.connections.coil->cell.inner_diameter_mm", "value": 0.5, "provenance": "measured",
+   "source": "our build"},
+  {"target": "rig.connections.coil->cell.length_mm", "value": 300.0, "provenance": "measured",
+   "source": "our build"},
+  {"target": "environment.relative_humidity_pct", "value": 45.0, "provenance": "measured",
+   "source": "lab hygrometer during run (SYNTHETIC)"}
+]

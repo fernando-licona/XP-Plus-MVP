@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "xp-plus-public-mvp"
+version = "0.1.0"
+description = "Self-contained XP Plus paper-to-twin computational reproducibility demo"
+requires-python = ">=3.12"
+dependencies = ["pydantic>=2,<3", "numpy>=1.26,<3", "scipy>=1.12,<2", "pandas>=2,<4"]
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+browser = ["playwright>=1.50,<2"]
+gp = ["torch>=2.4,<3", "botorch==0.18.1", "gpytorch==1.15.2", "scikit-learn>=1.5,<2", "openpyxl>=3.1,<4"]
+[project.scripts]
+xp-plus = "xp_plus.cli:main"
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["xp_plus*", "fluidsim_twin*", "m6flow*"]
+[tool.setuptools.package-data]
+fluidsim_twin = ["data/*.toml"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

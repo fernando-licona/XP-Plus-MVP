@@ -1,0 +1,20 @@
+[
+  {
+    "target": "rig.components.tee_cd.volume_uL",
+    "value": 2.0,
+    "provenance": "assumed",
+    "note": "junction internal volume not reported; upstream of the reactor, so it does not change tau"
+  },
+  {
+    "target": "rig.components.tee_se.volume_uL",
+    "value": 2.0,
+    "provenance": "assumed",
+    "note": "junction internal volume not reported; upstream of the reactor, so it does not change tau"
+  },
+  {
+    "target": "rig.components.micromixer.length_mm",
+    "value": 300.0,
+    "provenance": "assumed",
+    "note": "braided micromixer length not reported; upstream of the reactor, so it does not change tau"
+  }
+]

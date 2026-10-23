@@ -1,0 +1,643 @@
+{
+  "source_project": "XP Plus Hackathon snapshot",
+  "source_commit": "acf836252d8e336fa30efb57f16969683a07f194",
+  "runtime": "Headless subset of Danamic Simulations and m6flow; unchanged algorithms, narrowed export facade",
+  "files": {
+    "xp_plus/__init__.py": {
+      "sha256": "5ee6ebc5c620501b18aecb6006d9a0ddc528bf9d8740921de82e98f35842520b",
+      "source": "xp_plus/__init__.py",
+      "source_sha256": "5ee6ebc5c620501b18aecb6006d9a0ddc528bf9d8740921de82e98f35842520b",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/__main__.py": {
+      "sha256": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+      "source": "xp_plus/__main__.py",
+      "source_sha256": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/app/__init__.py": {
+      "sha256": "e375bd3dd73afd5ebdd2a7bef30bccd58dee3d005a9cfc15d4693d7a955e91f6",
+      "source": "xp_plus/app/__init__.py",
+      "source_sha256": "e375bd3dd73afd5ebdd2a7bef30bccd58dee3d005a9cfc15d4693d7a955e91f6",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/app/api.py": {
+      "sha256": "ccb82f23f030609a1c9d4b1c09ad537d8fa50256dbcc3060f4630e073795936c",
+      "source": "xp_plus/app/api.py",
+      "source_sha256": "ccb82f23f030609a1c9d4b1c09ad537d8fa50256dbcc3060f4630e073795936c",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/app/core.py": {
+      "sha256": "afec44a42c797067fb8d6e49784ed847bd30399583c5fafc2fa0ef0dbf14e06f",
+      "source": "xp_plus/app/core.py",
+      "source_sha256": "afec44a42c797067fb8d6e49784ed847bd30399583c5fafc2fa0ef0dbf14e06f",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/blackbox/__init__.py": {
+      "sha256": "c27a8537f9e4167eb4aaa05e81f7526b3c711cbfc05bd75b3ebeb919389a486b",
+      "source": "xp_plus/blackbox/__init__.py",
+      "source_sha256": "c27a8537f9e4167eb4aaa05e81f7526b3c711cbfc05bd75b3ebeb919389a486b",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/blackbox/data.py": {
+      "sha256": "6794eebd12ff65344ff1359f5dc1addf7cf687a72731f5a82abf700cc288d398",
+      "source": "xp_plus/blackbox/data.py",
+      "source_sha256": "6794eebd12ff65344ff1359f5dc1addf7cf687a72731f5a82abf700cc288d398",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/blackbox/model.py": {
+      "sha256": "ded6531cc4ee3cab961e35bc7f273006c3b37d7420209016cd619a87dba7fa17",
+      "source": "xp_plus/blackbox/model.py",
+      "source_sha256": "ded6531cc4ee3cab961e35bc7f273006c3b37d7420209016cd619a87dba7fa17",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/blackbox/validate.py": {
+      "sha256": "e18c2620d57e94e342b227ceb7a62dcb40e6aa84016046f0191d9c4c2a6e3dc7",
+      "source": "xp_plus/blackbox/validate.py",
+      "source_sha256": "e18c2620d57e94e342b227ceb7a62dcb40e6aa84016046f0191d9c4c2a6e3dc7",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/cli.py": {
+      "sha256": "158fe6f97cc85d2391fb1ca0d13ba75cc723b50a857f2a07a16d2a34d9c81df6",
+      "source": "xp_plus/cli.py",
+      "source_sha256": "bb8d902df69e8cd7d03450a0424e86acd8b5b0b4b04c16525ecdc13984e12cc4",
+      "change": "Remove private FlowLab launcher and pairing command; keep gate/run/schema/api unchanged"
+    },
+    "xp_plus/compare.py": {
+      "sha256": "b454e8bc6fdd28cb0f624a195fac0e73ee2122ff14715b98fddae4c449fc13c4",
+      "source": "xp_plus/compare.py",
+      "source_sha256": "b454e8bc6fdd28cb0f624a195fac0e73ee2122ff14715b98fddae4c449fc13c4",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/extraction/__init__.py": {
+      "sha256": "f805b438a379dc707ec30023b38e8550bc90b87cbcad9a99cb2da8552fac29c1",
+      "source": "xp_plus/extraction/__init__.py",
+      "source_sha256": "f805b438a379dc707ec30023b38e8550bc90b87cbcad9a99cb2da8552fac29c1",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/extraction/base.py": {
+      "sha256": "9c07f88bbbecac1e916e3ff2be5aa9988fcb5d27f49a4d23d66ea009d1799a4c",
+      "source": "xp_plus/extraction/base.py",
+      "source_sha256": "9c07f88bbbecac1e916e3ff2be5aa9988fcb5d27f49a4d23d66ea009d1799a4c",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/extraction/fixture.py": {
+      "sha256": "122ebb87d6c4bd02f5b838aba7afccc06361129d9ed9f2ad20ebf72b68baa399",
+      "source": "xp_plus/extraction/fixture.py",
+      "source_sha256": "122ebb87d6c4bd02f5b838aba7afccc06361129d9ed9f2ad20ebf72b68baa399",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/extraction/llm.py": {
+      "sha256": "d5e599214f398ac28a1e212c598fd15aa87b6b25b6606176bd05d8c84833576a",
+      "source": "xp_plus/extraction/llm.py",
+      "source_sha256": "d5e599214f398ac28a1e212c598fd15aa87b6b25b6606176bd05d8c84833576a",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/physical/__init__.py": {
+      "sha256": "556951a451de102b4a714533fb64ea98a5fcbefbb8b96d12be4290bd22a008b7",
+      "source": "xp_plus/physical/__init__.py",
+      "source_sha256": "3598523c46ba4086db921e361ca04ff9f89cf291e169a32abc2bbc23eac68670",
+      "change": "Remove hardware clients; preserve the pipeline protocol and recorded observation adapter"
+    },
+    "xp_plus/physical/recorded.py": {
+      "sha256": "0970b86d7126bddecbba9ed770735b0b8ea63271a2f56e9adbc30a2cb4776799",
+      "source": "xp_plus/physical/recorded.py",
+      "source_sha256": "0970b86d7126bddecbba9ed770735b0b8ea63271a2f56e9adbc30a2cb4776799",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/pipeline.py": {
+      "sha256": "838a91bf5dd92a74d09e6f703cdea633968ff4aa2fb2adf8c074a71a96eca6de",
+      "source": "xp_plus/pipeline.py",
+      "source_sha256": "838a91bf5dd92a74d09e6f703cdea633968ff4aa2fb2adf8c074a71a96eca6de",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/protocol.py": {
+      "sha256": "989ff684a88f910fdd29b877116847de068dfb7b5acb22775953e20f5e47b94d",
+      "source": "xp_plus/protocol.py",
+      "source_sha256": "989ff684a88f910fdd29b877116847de068dfb7b5acb22775953e20f5e47b94d",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/resolve.py": {
+      "sha256": "6a38e6e6e7bffddc6c9eb2e32fd3c8dc4fab850b8179bc7622613d4e0c8ac270",
+      "source": "xp_plus/resolve.py",
+      "source_sha256": "6a38e6e6e7bffddc6c9eb2e32fd3c8dc4fab850b8179bc7622613d4e0c8ac270",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/schema/__init__.py": {
+      "sha256": "31fd38f9e0857bb4ff37f3ca85f3c69055d6df349c316cfafec7e70d4815b5dc",
+      "source": "xp_plus/schema/__init__.py",
+      "source_sha256": "31fd38f9e0857bb4ff37f3ca85f3c69055d6df349c316cfafec7e70d4815b5dc",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/schema/features.py": {
+      "sha256": "f265f7ced9e4cae4f7fc57798a475666f18c0145a29b2f42c03839812a6fd4aa",
+      "source": "xp_plus/schema/features.py",
+      "source_sha256": "f265f7ced9e4cae4f7fc57798a475666f18c0145a29b2f42c03839812a6fd4aa",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/schema/gaps.py": {
+      "sha256": "25daa2e92353f34d88cb14123419d171e83f062e27ad95d7e51af4504df7dbe6",
+      "source": "xp_plus/schema/gaps.py",
+      "source_sha256": "25daa2e92353f34d88cb14123419d171e83f062e27ad95d7e51af4504df7dbe6",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/schema/model.py": {
+      "sha256": "76f157942372874ced376c199ce009d7940c5a2f41db8c422669a6076d22a00b",
+      "source": "xp_plus/schema/model.py",
+      "source_sha256": "76f157942372874ced376c199ce009d7940c5a2f41db8c422669a6076d22a00b",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/schema/provenance.py": {
+      "sha256": "2429f0e3e9305f65d7ccf8f0ec26cc51d6b250bbfa037ae4d23681f13a34cd6c",
+      "source": "xp_plus/schema/provenance.py",
+      "source_sha256": "2429f0e3e9305f65d7ccf8f0ec26cc51d6b250bbfa037ae4d23681f13a34cd6c",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/schema/rig.py": {
+      "sha256": "90c2a01c030b0686bb700c1a6fb21d5275d2ac68a6bd14efc5b12e549ba103d0",
+      "source": "xp_plus/schema/rig.py",
+      "source_sha256": "90c2a01c030b0686bb700c1a6fb21d5275d2ac68a6bd14efc5b12e549ba103d0",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/schema/standard.py": {
+      "sha256": "395f25099c380a850b1390a8ed8625ff252a5ce04f41cd330608964de630da62",
+      "source": "xp_plus/schema/standard.py",
+      "source_sha256": "395f25099c380a850b1390a8ed8625ff252a5ce04f41cd330608964de630da62",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/twin/__init__.py": {
+      "sha256": "471daa81d7c2b691892e001338bc92ee0843d302372faba126e681366d4c8813",
+      "source": "xp_plus/twin/__init__.py",
+      "source_sha256": "471daa81d7c2b691892e001338bc92ee0843d302372faba126e681366d4c8813",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/twin/gate.py": {
+      "sha256": "445c1432aac43e813f1d7b4bbd010d2e86c393f0ee689079002c2e55711ef12e",
+      "source": "xp_plus/twin/gate.py",
+      "source_sha256": "445c1432aac43e813f1d7b4bbd010d2e86c393f0ee689079002c2e55711ef12e",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/twin/predict.py": {
+      "sha256": "133f0a09526491e18fdd49cddfa90e6015e52e0f6ccef7ab745693bd624e70b2",
+      "source": "xp_plus/twin/predict.py",
+      "source_sha256": "133f0a09526491e18fdd49cddfa90e6015e52e0f6ccef7ab745693bd624e70b2",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/twin/to_danamic.py": {
+      "sha256": "1044a10319a05cc3d62c5722cae06b218c4a8fc3e84cd3c556c78be613951b82",
+      "source": "xp_plus/twin/to_danamic.py",
+      "source_sha256": "1044a10319a05cc3d62c5722cae06b218c4a8fc3e84cd3c556c78be613951b82",
+      "change": "Unchanged tracked source"
+    },
+    "xp_plus/units.py": {
+      "sha256": "4d2ccf4f7dca782249bc0897ac2ac27757620d9692f7ee3b0ff948511492c5df",
+      "source": "xp_plus/units.py",
+      "source_sha256": "4d2ccf4f7dca782249bc0897ac2ac27757620d9692f7ee3b0ff948511492c5df",
+      "change": "Unchanged tracked source"
+    },
+    "examples/dfe_gp/extraction.json": {
+      "sha256": "9201285e9cee5db14a65732161b4de4ab4765f6c7e893ebfe47825af2dec14fe",
+      "source": "examples/dfe_gp/extraction.json",
+      "source_sha256": "9201285e9cee5db14a65732161b4de4ab4765f6c7e893ebfe47825af2dec14fe",
+      "change": "Unchanged tracked source"
+    },
+    "examples/dfe_gp/resolutions.json": {
+      "sha256": "4bcbc33e80cbaa4902b643cf609622496da70d0baf76e2c74024c1b2d1148641",
+      "source": "examples/dfe_gp/resolutions.json",
+      "source_sha256": "4bcbc33e80cbaa4902b643cf609622496da70d0baf76e2c74024c1b2d1148641",
+      "change": "Unchanged tracked source"
+    },
+    "examples/dfe_rtd/tau_0p5min/extraction.json": {
+      "sha256": "b0a53decf6594404dd50e0cd011b9474d9ac5af5892318ffbe2d1e28c391be51",
+      "source": "examples/dfe_rtd/tau_0p5min/extraction.json",
+      "source_sha256": "b0a53decf6594404dd50e0cd011b9474d9ac5af5892318ffbe2d1e28c391be51",
+      "change": "Unchanged tracked source"
+    },
+    "examples/dfe_rtd/tau_0p5min/resolutions.json": {
+      "sha256": "68bb0bf4d67c7e94bb19114c61b8b47b4ba17bcd7b3e17d120cce24c123f3ddf",
+      "source": "examples/dfe_rtd/tau_0p5min/resolutions.json",
+      "source_sha256": "68bb0bf4d67c7e94bb19114c61b8b47b4ba17bcd7b3e17d120cce24c123f3ddf",
+      "change": "Unchanged tracked source"
+    },
+    "examples/dfe_rtd/tau_9min/extraction.json": {
+      "sha256": "05c598ef25d816d59868aee7ed561a383d913d5eca193a75c43c6b151da081b9",
+      "source": "examples/dfe_rtd/tau_9min/extraction.json",
+      "source_sha256": "05c598ef25d816d59868aee7ed561a383d913d5eca193a75c43c6b151da081b9",
+      "change": "Unchanged tracked source"
+    },
+    "examples/dfe_rtd/tau_9min/resolutions.json": {
+      "sha256": "26bb90dbb6038bf9ad83d304713ccc8d49ca9d7ec2ff8651b5dcd740200d2c63",
+      "source": "examples/dfe_rtd/tau_9min/resolutions.json",
+      "source_sha256": "26bb90dbb6038bf9ad83d304713ccc8d49ca9d7ec2ff8651b5dcd740200d2c63",
+      "change": "Unchanged tracked source"
+    },
+    "examples/toy_flow_paper/extraction.json": {
+      "sha256": "d2cef423eb06486e8920227ae63f6fc1ffe50fa1a197fa7a1337e392e9aa22b8",
+      "source": "examples/toy_flow_paper/extraction.json",
+      "source_sha256": "d2cef423eb06486e8920227ae63f6fc1ffe50fa1a197fa7a1337e392e9aa22b8",
+      "change": "Unchanged tracked source"
+    },
+    "examples/toy_flow_paper/observations.json": {
+      "sha256": "74f1b6a001641aec9af3cd6e3479ad6a04ef7198ccaf0b6d7862e18ca1c8fd02",
+      "source": "examples/toy_flow_paper/observations.json",
+      "source_sha256": "74f1b6a001641aec9af3cd6e3479ad6a04ef7198ccaf0b6d7862e18ca1c8fd02",
+      "change": "Unchanged tracked source"
+    },
+    "examples/toy_flow_paper/resolutions.json": {
+      "sha256": "e9fe1deb01a007fa769ac10e370b4efd597b31a14892eab4179401cc4118ed91",
+      "source": "examples/toy_flow_paper/resolutions.json",
+      "source_sha256": "e9fe1deb01a007fa769ac10e370b4efd597b31a14892eab4179401cc4118ed91",
+      "change": "Unchanged tracked source"
+    },
+    "examples/polaris_gp/check.py": {
+      "sha256": "580cf036fdb95e346602f9bb845e872859bc0e0ffc32ee2171a85e1dbdd52f05",
+      "source": "examples/polaris_gp/check.py",
+      "source_sha256": "a8cce6786ebbc3f01999a3caabae8853724f6301867bbea497ba1ace0cdc5a8c",
+      "change": "Use the public bundled runtime; no sibling checkout paths"
+    },
+    "examples/polaris_gp/check_engine.py": {
+      "sha256": "03acaa5de879d80e218b1764eda2e5b89406a0893ad80716bae2df621b85ed4f",
+      "source": "examples/polaris_gp/check_engine.py",
+      "source_sha256": "5b7d80f1e454f04529740a133b59927b87809dec3db98e83230023e05df27161",
+      "change": "Use the public bundled runtime; no sibling checkout paths"
+    },
+    "fluidsim_twin/build.py": {
+      "sha256": "128542f09f89a9a5c1665e925ed92fb8218afd2c3d77fea8ab5099ebdcd3407b",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/build.py",
+      "source_sha256": "128542f09f89a9a5c1665e925ed92fb8218afd2c3d77fea8ab5099ebdcd3407b",
+      "change": "Unchanged tracked source"
+    },
+    "fluidsim_twin/registry.py": {
+      "sha256": "700d4d29dd93bc276d59bb8c37ad1ddc29d6e99373f8befddc51ac50b195a7a5",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/registry.py",
+      "source_sha256": "700d4d29dd93bc276d59bb8c37ad1ddc29d6e99373f8befddc51ac50b195a7a5",
+      "change": "Unchanged tracked source"
+    },
+    "fluidsim_twin/equipment.py": {
+      "sha256": "129e891bedc6d346bca8f2a832a71674bc1014e93fc7afb1f4ee2adf90d175fc",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/equipment.py",
+      "source_sha256": "129e891bedc6d346bca8f2a832a71674bc1014e93fc7afb1f4ee2adf90d175fc",
+      "change": "Unchanged tracked source"
+    },
+    "fluidsim_twin/kinetics.py": {
+      "sha256": "46004821e2457f5d05fff455a41e10f30f12f97a1f05410d97e7304771c168b3",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/kinetics.py",
+      "source_sha256": "46004821e2457f5d05fff455a41e10f30f12f97a1f05410d97e7304771c168b3",
+      "change": "Unchanged tracked source"
+    },
+    "fluidsim_twin/optical.py": {
+      "sha256": "8268fbec3b096101777de32a9ac0293556a7b58f5cb8b3cffcf7ab7f9be91d08",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/optical.py",
+      "source_sha256": "8268fbec3b096101777de32a9ac0293556a7b58f5cb8b3cffcf7ab7f9be91d08",
+      "change": "Unchanged tracked source"
+    },
+    "fluidsim_twin/gravimetric.py": {
+      "sha256": "8d30f69ff4a8ea8e4ec45f12a6f42b528edb31ea1be71ba15ae6dd2623770a8b",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/gravimetric.py",
+      "source_sha256": "8d30f69ff4a8ea8e4ec45f12a6f42b528edb31ea1be71ba15ae6dd2623770a8b",
+      "change": "Unchanged tracked source"
+    },
+    "fluidsim_twin/schema/platform.py": {
+      "sha256": "ac832040c0e1195a3904d9fe11654dc4ec39ad7596c102f5fb1a572401363111",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/schema/platform.py",
+      "source_sha256": "ac832040c0e1195a3904d9fe11654dc4ec39ad7596c102f5fb1a572401363111",
+      "change": "Unchanged tracked source"
+    },
+    "fluidsim_twin/schema/run.py": {
+      "sha256": "0fa28e10de5ff37ad9ac507941519b926744d1b3b081c0558fe27d4d8302df11",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/schema/run.py",
+      "source_sha256": "0fa28e10de5ff37ad9ac507941519b926744d1b3b081c0558fe27d4d8302df11",
+      "change": "Unchanged tracked source"
+    },
+    "fluidsim_twin/engines/base.py": {
+      "sha256": "195f3415b36728040a53a6f0ea4566031cdcd73a25fb3ed2a7dbbe9a7c408282",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/engines/base.py",
+      "source_sha256": "195f3415b36728040a53a6f0ea4566031cdcd73a25fb3ed2a7dbbe9a7c408282",
+      "change": "Unchanged tracked source"
+    },
+    "fluidsim_twin/engines/analytical.py": {
+      "sha256": "360f1d3affe5b96d15c7c1a5c4395178f3eb7baca2e16ae4b34fda122f2c1c4c",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/engines/analytical.py",
+      "source_sha256": "360f1d3affe5b96d15c7c1a5c4395178f3eb7baca2e16ae4b34fda122f2c1c4c",
+      "change": "Unchanged tracked source"
+    },
+    "fluidsim_twin/engines/black_box.py": {
+      "sha256": "e660023785e8ae2438925ac912e403ca2154f84a8fb8427e14c771b0ff4941a0",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/engines/black_box.py",
+      "source_sha256": "e660023785e8ae2438925ac912e403ca2154f84a8fb8427e14c771b0ff4941a0",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/params.py": {
+      "sha256": "8cc0561db65409034e14e634875ae5162d1e9f05f3ea4145a9ca38c0bc35180a",
+      "source": "Danamic-Simulations/m6flow/m6flow/params.py",
+      "source_sha256": "8cc0561db65409034e14e634875ae5162d1e9f05f3ea4145a9ca38c0bc35180a",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/units.py": {
+      "sha256": "a19bcb66042a631b9bf68056e1832ced48bd3b75b9c388151edaa99fb9220f6f",
+      "source": "Danamic-Simulations/m6flow/m6flow/units.py",
+      "source_sha256": "a19bcb66042a631b9bf68056e1832ced48bd3b75b9c388151edaa99fb9220f6f",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/models/zoh.py": {
+      "sha256": "c5a5790e67fa5beadf13f7e13cd523244b061efc25df2ec3b65522807a00e287",
+      "source": "Danamic-Simulations/m6flow/m6flow/models/zoh.py",
+      "source_sha256": "c5a5790e67fa5beadf13f7e13cd523244b061efc25df2ec3b65522807a00e287",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/network/__init__.py": {
+      "sha256": "3cee58663bb4e56bb2d3d2156357017ade1483c9255254362d82d430ab6102aa",
+      "source": "Danamic-Simulations/m6flow/m6flow/network/__init__.py",
+      "source_sha256": "3cee58663bb4e56bb2d3d2156357017ade1483c9255254362d82d430ab6102aa",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/network/graph.py": {
+      "sha256": "1725aa0e4b12f50199c847add96cb0ca34e38de70d84221187fd3efb3acfe950",
+      "source": "Danamic-Simulations/m6flow/m6flow/network/graph.py",
+      "source_sha256": "1725aa0e4b12f50199c847add96cb0ca34e38de70d84221187fd3efb3acfe950",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/network/solve.py": {
+      "sha256": "4aabea79dc2295ea152c5e1b35ecf90aecb91414708cb1c7c7d6ebd7529c44f3",
+      "source": "Danamic-Simulations/m6flow/m6flow/network/solve.py",
+      "source_sha256": "4aabea79dc2295ea152c5e1b35ecf90aecb91414708cb1c7c7d6ebd7529c44f3",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/network/driver.py": {
+      "sha256": "4aa652232ddf965cfc51ed957a1fc9ea2b648dcc319b9c7d8a276ad12db065ee",
+      "source": "Danamic-Simulations/m6flow/m6flow/network/driver.py",
+      "source_sha256": "4aa652232ddf965cfc51ed957a1fc9ea2b648dcc319b9c7d8a276ad12db065ee",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/forward/__init__.py": {
+      "sha256": "c8c8c6bb77b026a9277d018aa40a09cb101aa71ec14a8f14ec891d5c5715d034",
+      "source": "Danamic-Simulations/m6flow/m6flow/forward/__init__.py",
+      "source_sha256": "c8c8c6bb77b026a9277d018aa40a09cb101aa71ec14a8f14ec891d5c5715d034",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/forward/assembly.py": {
+      "sha256": "7d727760df8c4c18470fc3ec4faa2aba814a8f4ba4f8b83c33e3c0ebfa235626",
+      "source": "Danamic-Simulations/m6flow/m6flow/forward/assembly.py",
+      "source_sha256": "7d727760df8c4c18470fc3ec4faa2aba814a8f4ba4f8b83c33e3c0ebfa235626",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/forward/delivery.py": {
+      "sha256": "c28264cda88cd67aa8b256e96b9d89a0c463f544a8d8535d95905b7db8dddfdc",
+      "source": "Danamic-Simulations/m6flow/m6flow/forward/delivery.py",
+      "source_sha256": "c28264cda88cd67aa8b256e96b9d89a0c463f544a8d8535d95905b7db8dddfdc",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/forward/balance.py": {
+      "sha256": "614a56e3c33f920cbb755d843d920ec1681954297a283b60f9822f277e365022",
+      "source": "Danamic-Simulations/m6flow/m6flow/forward/balance.py",
+      "source_sha256": "614a56e3c33f920cbb755d843d920ec1681954297a283b60f9822f277e365022",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/forward/observation.py": {
+      "sha256": "9d6db608091d336b1b046302519810deeca1dbc27e1f1bb697b920295c084ec6",
+      "source": "Danamic-Simulations/m6flow/m6flow/forward/observation.py",
+      "source_sha256": "9d6db608091d336b1b046302519810deeca1dbc27e1f1bb697b920295c084ec6",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/forward/tvrtd.py": {
+      "sha256": "8d90cd770b8e54eec0513a49c9588969b8a73d13c0b940229c70e7f46b1398a7",
+      "source": "Danamic-Simulations/m6flow/m6flow/forward/tvrtd.py",
+      "source_sha256": "8d90cd770b8e54eec0513a49c9588969b8a73d13c0b940229c70e7f46b1398a7",
+      "change": "Unchanged tracked source"
+    },
+    "m6flow/__init__.py": {
+      "sha256": "cdcbe81acdba37d950c08c58ec6733500af84f9b1d665d1371488821a87caeab",
+      "source": "Danamic-Simulations/m6flow/m6flow/__init__.py",
+      "source_sha256": "c0b266d20ad906256b2b3ea4a2141309572c23bf064bbb768a31e0696bea25b4",
+      "change": "Remove data/config/calibration convenience imports; numerical kernels unchanged"
+    },
+    "m6flow/models/__init__.py": {
+      "sha256": "0454bc80f45e2ac6a83c1f673acd0d339387ba7d51f3c7534241b9b746573b89",
+      "source": "Danamic-Simulations/m6flow/m6flow/models/__init__.py",
+      "source_sha256": "7b5841507336ac2e2e161c02eda4a811eca5c6046aabae311eb5ce65537ac5f2",
+      "change": "Exclude unused model and estimation plugins"
+    },
+    "fluidsim_twin/__init__.py": {
+      "sha256": "000b2835e45a1c7140532a567fc69c46f6fcce3c7276c58a80d7f1b6b9942542",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/__init__.py",
+      "source_sha256": "00cdeaac980bb81516d11c0147cb6feb3a75f5d38362bc7b2245ded3c2e2d647",
+      "change": "Expose the computational facade without desktop/persistence imports"
+    },
+    "fluidsim_twin/schema/__init__.py": {
+      "sha256": "dfe7c48a6c3eb1e4d0e70428d4187eb46125ee58215201c8eafb08a813252c6d",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/schema/__init__.py",
+      "source_sha256": "b0efe02b821f4863ba6a0d931c85580e409612ad7d2ac116b3818a80a61bfae3",
+      "change": "Export only platform/run document family; no project persistence documents"
+    },
+    "fluidsim_twin/engines/__init__.py": {
+      "sha256": "ee3a07c5f4b9ee3d52d79616544c1473c84c19d6c4f047bb3aa756ace6a7dd14",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/engines/__init__.py",
+      "source_sha256": "256c9f60c9398b3a5023b917d0fcc45388150c92de8727965e6c1f2b976453c3",
+      "change": "Register only the two required engines; do not advertise omitted PDE/CFD implementations"
+    },
+    "fluidsim_twin/service.py": {
+      "sha256": "6e0304c2acf805aa59f50b9bec3a9f25e16628aa8b12d82f2ea66b4f5e11eb86",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/fluidsim_twin/service.py",
+      "source_sha256": "84a56c717f8d0eb52f9b799480569b9edf2de4199bee82fdea19d5fbc33eb9b8",
+      "change": "Retain original numerical build/validate/simulate/engine methods only; remove persistence, calibration and campaigns"
+    },
+    "fluidsim_twin/data/equipment_models.toml": {
+      "sha256": "1e345b4f82ea4399432313d985dcd40f3142b9cea1a3b2721925c0e286cb8e9e",
+      "change": "Empty export registry; public presets carry explicit values/assumptions"
+    },
+    "fluidsim_twin/data/equipment_units.toml": {
+      "sha256": "1e345b4f82ea4399432313d985dcd40f3142b9cea1a3b2721925c0e286cb8e9e",
+      "change": "Empty export registry; public presets carry explicit values/assumptions"
+    },
+    "fluidsim_twin/data/reactions.toml": {
+      "sha256": "1e345b4f82ea4399432313d985dcd40f3142b9cea1a3b2721925c0e286cb8e9e",
+      "change": "Empty export registry; public presets carry explicit values/assumptions"
+    },
+    "fluidsim_twin/data/optical_properties.toml": {
+      "sha256": "1e345b4f82ea4399432313d985dcd40f3142b9cea1a3b2721925c0e286cb8e9e",
+      "change": "Empty export registry; public presets carry explicit values/assumptions"
+    },
+    "tests/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "tests/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "Unchanged tracked source"
+    },
+    "tests/conftest.py": {
+      "sha256": "d06ff8c100ee04bd480809396c716bc5f1f58d03eb65a093cd8fc6861ec72f7e",
+      "source": "tests/conftest.py",
+      "source_sha256": "d06ff8c100ee04bd480809396c716bc5f1f58d03eb65a093cd8fc6861ec72f7e",
+      "change": "Unchanged tracked source"
+    },
+    "tests/test_blackbox.py": {
+      "sha256": "c471079e29dfc325baf8dbeaa431010fe89256100452a05ebb0d0001d0ceb02e",
+      "source": "tests/test_blackbox.py",
+      "source_sha256": "c471079e29dfc325baf8dbeaa431010fe89256100452a05ebb0d0001d0ceb02e",
+      "change": "Unchanged tracked source"
+    },
+    "tests/test_compare.py": {
+      "sha256": "f1e89b23abe0efe781667eafdc9da206d4316650300b776e6964b6219f9054d1",
+      "source": "tests/test_compare.py",
+      "source_sha256": "f1e89b23abe0efe781667eafdc9da206d4316650300b776e6964b6219f9054d1",
+      "change": "Unchanged tracked source"
+    },
+    "tests/test_dfe_rtd.py": {
+      "sha256": "5053b49ee218f7c9590165bbbb091bba48f4b6bace4db280fbf361b37896129e",
+      "source": "tests/test_dfe_rtd.py",
+      "source_sha256": "5053b49ee218f7c9590165bbbb091bba48f4b6bace4db280fbf361b37896129e",
+      "change": "Unchanged tracked source"
+    },
+    "tests/test_extraction_gap_guard.py": {
+      "sha256": "2931856dfa8286563da2d93eade04d384943dbfaa5f3bac7995621fa623d58d1",
+      "source": "tests/test_extraction_gap_guard.py",
+      "source_sha256": "2931856dfa8286563da2d93eade04d384943dbfaa5f3bac7995621fa623d58d1",
+      "change": "Unchanged tracked source"
+    },
+    "tests/test_gate.py": {
+      "sha256": "8278a8051a33bee0694427cfd5ecbab13e6bb17cb2760da48cf0c51029945da1",
+      "source": "tests/test_gate.py",
+      "source_sha256": "8278a8051a33bee0694427cfd5ecbab13e6bb17cb2760da48cf0c51029945da1",
+      "change": "Unchanged tracked source"
+    },
+    "tests/test_pipeline.py": {
+      "sha256": "54b40a6515f948363ecea06ab9519e591efc0194a30b9347d4907dada9fa6aa5",
+      "source": "tests/test_pipeline.py",
+      "source_sha256": "54b40a6515f948363ecea06ab9519e591efc0194a30b9347d4907dada9fa6aa5",
+      "change": "Unchanged tracked source"
+    },
+    "tests/test_resolve.py": {
+      "sha256": "273220fba6b05e94d97769a356f7a581305a79f75eb09002dab8e9fbc139dcf1",
+      "source": "tests/test_resolve.py",
+      "source_sha256": "273220fba6b05e94d97769a356f7a581305a79f75eb09002dab8e9fbc139dcf1",
+      "change": "Unchanged tracked source"
+    },
+    "tests/test_schema.py": {
+      "sha256": "3214b28f0b641028631521a32ea532a9f2dfa928c79197c1c136623835ed3dd3",
+      "source": "tests/test_schema.py",
+      "source_sha256": "3214b28f0b641028631521a32ea532a9f2dfa928c79197c1c136623835ed3dd3",
+      "change": "Unchanged tracked source"
+    },
+    "tests/test_transport_black_box.py": {
+      "sha256": "ca479bc2ee3cbd6f4c752dabee5ddb85f8694f1a93f7e383a446203e93598792",
+      "source": "Danamic-Simulations/digital-twin/fluidsim_twin/tests/test_black_box.py",
+      "source_sha256": "ca479bc2ee3cbd6f4c752dabee5ddb85f8694f1a93f7e383a446203e93598792",
+      "change": "Unchanged tracked source"
+    },
+    "docs/paper-extraction-checklist.md": {
+      "sha256": "2b996de6ac28732d7f468e59c010904d4df76f002bee6d01588416943123c0e5",
+      "source": ".claude/skills/paper-extraction/SKILL.md",
+      "source_sha256": "2b996de6ac28732d7f468e59c010904d4df76f002bee6d01588416943123c0e5",
+      "change": "Unchanged tracked source"
+    },
+    "web/src/xpplus/ReproduceDetail.tsx": {
+      "sha256": "29837e27ba26f7763369d4831dfb26d87c5beedc45c10d929a5d3f88144f99a1",
+      "source": "xp_plus_web/src/xpplus/ReproduceDetail.tsx",
+      "source_sha256": "58954696fb73f28b457cdba21d3e9a0a4bdd96f75bd01850f9b697c01770f50f",
+      "change": "Keep reproduction-only UI; remove assistant/private backend and artwork bindings; clarify public demo scope; public unit/scope formatting, portability or packaging refinement"
+    },
+    "web/src/xpplus/ReproduceList.tsx": {
+      "sha256": "45db708703d3dd36ec8159f449e322285df36f8eeaf46cb451e5f960ac63f056",
+      "source": "xp_plus_web/src/xpplus/ReproduceList.tsx",
+      "source_sha256": "36967c9eb2d526ea11d58de83af86834e80669e634e231e187f476b76e6a4c82",
+      "change": "Keep reproduction-only UI; remove assistant/private backend and artwork bindings; clarify public demo scope"
+    },
+    "web/src/xpplus/RigMap.tsx": {
+      "sha256": "ff88281c981d359d51b583dfc274c14adc35519573529883e2ce3a6ceaa28bd4",
+      "source": "xp_plus_web/src/xpplus/RigMap.tsx",
+      "source_sha256": "707e164564af954815739f369390d816ed8502c1593d49c5dafb7579c40a8a20",
+      "change": "Keep reproduction-only UI; remove assistant/private backend and artwork bindings; clarify public demo scope; public unit/scope formatting, portability or packaging refinement"
+    },
+    "web/src/xpplus/api.ts": {
+      "sha256": "311701ac0643209ba9cc58c7d8ff0d9f7bf5561261263dc5f7af5ca27f292ddd",
+      "source": "xp_plus_web/src/xpplus/api.ts",
+      "source_sha256": "311701ac0643209ba9cc58c7d8ff0d9f7bf5561261263dc5f7af5ca27f292ddd",
+      "change": "Keep reproduction-only UI; remove assistant/private backend and artwork bindings; clarify public demo scope"
+    },
+    "web/src/xpplus/types.ts": {
+      "sha256": "b1d7970a58fe06a94510115b76aa675b404923e7ab17308b5e48b78e2de14100",
+      "source": "xp_plus_web/src/xpplus/types.ts",
+      "source_sha256": "b1d7970a58fe06a94510115b76aa675b404923e7ab17308b5e48b78e2de14100",
+      "change": "Keep reproduction-only UI; remove assistant/private backend and artwork bindings; clarify public demo scope"
+    },
+    "web/src/xpplus/ui.tsx": {
+      "sha256": "7fcafaf265a7cafd2f07d0c2bafd9235f67fc624433b02e7b15d8ec79f0e8eb0",
+      "source": "xp_plus_web/src/xpplus/ui.tsx",
+      "source_sha256": "7f45791507e2f99358ce8004975a1914cd4ee40c35c000ae2b4e1dc7354222e7",
+      "change": "Keep reproduction-only UI; remove assistant/private backend and artwork bindings; clarify public demo scope; public unit/scope formatting, portability or packaging refinement"
+    },
+    "web/src/App.tsx": {
+      "sha256": "c5c26f19c529129a97625f28190ecfd65b2947077d8a8361371081e232ab55a2",
+      "change": "Public MVP packaging"
+    },
+    "web/src/main.tsx": {
+      "sha256": "f2eb26407062fef713eb5e4e809aaf912d00e69bed36ca73d9d634781e61f213",
+      "change": "Public MVP packaging"
+    },
+    "web/src/style.css": {
+      "sha256": "a51ac85c5e5061f3a51cb77daf98f5470965ea837bc263220203eae13f185837",
+      "change": "Public MVP packaging"
+    },
+    "web/index.html": {
+      "sha256": "c1539d9f0dade8cca5f1b7f05846c769339a0db7584827253852b3337d85f336",
+      "change": "Public MVP packaging"
+    },
+    "web/vite.config.ts": {
+      "sha256": "16d04834a51ee8d979f414da9969dc106f21a0b4a56bb646019cad2de82dfd37",
+      "change": "Public MVP packaging"
+    },
+    "web/tsconfig.json": {
+      "sha256": "004a8e98c653e99cc0b73e0c72ebe6f224e06cc97f4eeed5b5efc81fba88bb84",
+      "change": "Public MVP packaging"
+    },
+    "web/package.json": {
+      "sha256": "58d8a8b57b43538a2dde2eb6b5ba91c1fdb8f36d119e2a5b75f125e8c4ebbe34",
+      "change": "Public MVP packaging"
+    },
+    "pyproject.toml": {
+      "sha256": "071f900a2cfbb9b95274ae656e1764428b0e04e540986087e25ffe66ea541084",
+      "change": "Public MVP packaging; public unit/scope formatting, portability or packaging refinement"
+    },
+    ".gitignore": {
+      "sha256": "64d157f32b2e8ad93166dfce26ecb7a58c94c3dab93226c8301a93d023626e53",
+      "change": "Public MVP packaging; public unit/scope formatting, portability or packaging refinement"
+    },
+    "NOTICE.md": {
+      "sha256": "17a87eb039686e685154ddc8eee3cba0efec8e28b2e2ffbb4a22561c02475fe5",
+      "change": "Public MVP packaging"
+    },
+    ".gitattributes": {
+      "change": "Public MVP packaging, documentation, lock or validation",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    "README.md": {
+      "change": "Public MVP packaging, documentation, lock or validation",
+      "sha256": "518671919efbea4bccbab1cb9e4b0116b8b694ed16106019b3b1abae55ebdf1a"
+    },
+    "docs/RESULTS.md": {
+      "change": "Public MVP packaging, documentation, lock or validation",
+      "sha256": "88143207b525c114c9d9cd0f22fb8892a866658c733210c537a419e6fb93411c"
+    },
+    "docs/VALIDATION.md": {
+      "change": "Public MVP packaging, documentation, lock or validation",
+      "sha256": "c09642d199fc5f7a49daf1239902cd9eb6c7e61cef018cc6874caca54350905c"
+    },
+    "requirements-lock.txt": {
+      "change": "Public MVP packaging, documentation, lock or validation",
+      "sha256": "149a6dd753715ea1391b3b009c6f4128c8492944cb30bfd521c94588e08fb466"
+    },
+    "tests/browser_smoke.py": {
+      "change": "Public MVP packaging, documentation, lock or validation",
+      "sha256": "a6c0a6cf014fb5be714eb200d72bd7daaab5f27bc0671efd7677f7c180652b39"
+    },
+    "tests/test_public_package.py": {
+      "change": "Public MVP packaging, documentation, lock or validation",
+      "sha256": "81bba4ab888de61d6b1b4ead3d4a4925c96575d84bb98cd757e2329a9d347be6"
+    },
+    "web/package-lock.json": {
+      "change": "Public MVP packaging, documentation, lock or validation",
+      "sha256": "0d1e20cc4c2c1c43b36e3ee60cdecfc80065bb12d2aae4daca8a5501ecffbec9"
+    }
+  },
+  "publication_scope": "Self-contained computational MVP only; fresh history; no private FlowLab application, credentials, local data or raw paper files",
+  "hash_basis": "SHA256 of UTF-8/LF public files; .gitattributes preserves these bytes across platforms"
+}

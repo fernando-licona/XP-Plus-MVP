@@ -1,0 +1,1546 @@
+{
+  "features": {
+    "paper": {
+      "title": "Flow-driven data intensification to accelerate autonomous inorganic materials discovery",
+      "doi": "10.1038/s44286-025-00249-z",
+      "authors": [
+        "F. Delgado-Licona",
+        "A. Alsaiari",
+        "H. Dickerson",
+        "P. Klem",
+        "A. Ghorai",
+        "R. B. Canty",
+        "J. A. Bennett",
+        "P. Jha",
+        "N. Mukhin",
+        "J. Li",
+        "E. A. López-Guajardo",
+        "S. Sadeghi",
+        "F. Bateni",
+        "M. Abolhasani"
+      ],
+      "year": 2025
+    },
+    "experiment": "CdSe DFE at the Fig. 2 condition + GP digital twin (Main Fig. 2, 4b; SI §4, §6)",
+    "rig": {
+      "components": [
+        {
+          "id": "res_cd",
+          "kind": "reservoir",
+          "name": "Cd precursor (CdO / oleic acid / ODE)",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {
+            "cd": {
+              "value": 0.02,
+              "provenance": "inferred",
+              "note": "Methods: 1,027 mg CdO (128.41 g/mol) = 8.0 mmol in 375 mL ODE + 25 mL oleic acid = 0.020 M"
+            }
+          }
+        },
+        {
+          "id": "res_se",
+          "kind": "reservoir",
+          "name": "Se precursor (Se / TOP / ODE)",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {
+            "se": {
+              "value": 0.02,
+              "provenance": "inferred",
+              "note": "Methods: 632 mg Se (78.97 g/mol) = 8.0 mmol in 10 mL TOP + 390 mL ODE = 0.020 M"
+            }
+          }
+        },
+        {
+          "id": "res_ode_cd",
+          "kind": "reservoir",
+          "name": "ODE (Cd dilution)",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "res_ode_se",
+          "kind": "reservoir",
+          "name": "ODE (Se dilution)",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "pump_cd",
+          "kind": "pump",
+          "manufacturer": {
+            "value": "Chemyx",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "model": {
+            "value": "Fusion 6000",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "pump_cd_ode",
+          "kind": "pump",
+          "manufacturer": {
+            "value": "Chemyx",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "model": {
+            "value": "Fusion 6000",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "pump_se",
+          "kind": "pump",
+          "manufacturer": {
+            "value": "Chemyx",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "model": {
+            "value": "Fusion 6000",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "pump_se_ode",
+          "kind": "pump",
+          "manufacturer": {
+            "value": "Chemyx",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "model": {
+            "value": "Fusion 6000",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "tee_cd",
+          "kind": "mixer",
+          "name": "Cd / ODECd junction (implied)",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "tee_se",
+          "kind": "mixer",
+          "name": "Se / ODESe junction (implied)",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "preheater",
+          "kind": "tubing",
+          "name": "Se preheater coil",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "value": "stainless steel",
+            "provenance": "paper_stated",
+            "source": "Methods: 'The reaction module was fabricated using stainless steel tubing'"
+          },
+          "inner_diameter_mm": {
+            "value": 0.762,
+            "provenance": "paper_stated",
+            "source": "Methods: '0.0625-inch outer diameter×0.03-inch inner diameter; IDEX U-190'"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "value": 300.0,
+            "provenance": "paper_stated",
+            "source": "Methods: 'a 300-µl helical coil ... as preheater of the Se precursor'"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "value": 227.0,
+            "provenance": "paper_stated",
+            "source": "Main: 'four identical DFEs under a constant QD synthesis condition (that is, X1 = 0.30, X2 = 0.27, X3 = 0.73, Tpre = 227 °C and Trxn = 284 °C)'"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "micromixer",
+          "kind": "mixer",
+          "name": "custom braided micromixer",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "value": "PFA",
+            "provenance": "paper_stated",
+            "source": "Methods: 'braided micromixer (perfluoroalkoxy tubing ...; Microsolv'"
+          },
+          "inner_diameter_mm": {
+            "value": 0.762,
+            "provenance": "paper_stated",
+            "source": "Methods: braided micromixer '0.0625-inch outer diameter×0.03-inch inner diameter'"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "reactor",
+          "kind": "reactor",
+          "name": "CFI microreactor",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "value": "stainless steel",
+            "provenance": "paper_stated",
+            "source": "Methods: 'The reaction module was fabricated using stainless steel tubing'"
+          },
+          "inner_diameter_mm": {
+            "value": 0.762,
+            "provenance": "paper_stated",
+            "source": "Methods: '0.0625-inch outer diameter×0.03-inch inner diameter; IDEX U-190'"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "value": 1113.0,
+            "provenance": "paper_stated",
+            "source": "Methods: 'a 1,113-µl CFI reactor'"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "value": 284.0,
+            "provenance": "paper_stated",
+            "source": "Main: 'four identical DFEs under a constant QD synthesis condition (that is, X1 = 0.30, X2 = 0.27, X3 = 0.73, Tpre = 227 °C and Trxn = 284 °C)'"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "cell",
+          "kind": "detector",
+          "name": "three-port flow cell; Ocean Insight HDX; BAL 2000 + 365 nm LED (Thorlabs)",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        }
+      ],
+      "connections": [
+        {
+          "src": "res_cd",
+          "dst": "pump_cd",
+          "direct": true,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "res_ode_cd",
+          "dst": "pump_cd_ode",
+          "direct": true,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "res_se",
+          "dst": "pump_se",
+          "direct": true,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "res_ode_se",
+          "dst": "pump_se_ode",
+          "direct": true,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "pump_cd",
+          "dst": "tee_cd",
+          "direct": false,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "pump_cd_ode",
+          "dst": "tee_cd",
+          "direct": false,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "pump_se",
+          "dst": "tee_se",
+          "direct": false,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "pump_se_ode",
+          "dst": "tee_se",
+          "direct": false,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "tee_se",
+          "dst": "preheater",
+          "direct": false,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "tee_cd",
+          "dst": "micromixer",
+          "direct": false,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "preheater",
+          "dst": "micromixer",
+          "direct": false,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "micromixer",
+          "dst": "reactor",
+          "direct": false,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "reactor",
+          "dst": "cell",
+          "direct": false,
+          "inner_diameter_mm": {
+            "value": 0.762,
+            "provenance": "inferred",
+            "note": "228 uL over 50 cm gives ID = 0.762 mm"
+          },
+          "length_mm": {
+            "value": 500.0,
+            "provenance": "paper_stated",
+            "source": "Methods: 'placed 50cm (228-µl) downstream of the flow reactor module'"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        }
+      ]
+    },
+    "chemistry": {
+      "reagents": [],
+      "solvent": {
+        "provenance": "missing"
+      }
+    },
+    "environment": {
+      "ambient_temperature_C": {
+        "provenance": "missing"
+      },
+      "relative_humidity_pct": {
+        "provenance": "missing"
+      },
+      "ambient_pressure_kPa": {
+        "provenance": "missing"
+      },
+      "other": {}
+    },
+    "protocol": [
+      {
+        "id": "set_pump_cd",
+        "description": "initial flow at tau0 = 1 min",
+        "action": "set_flow_rate",
+        "component": "pump_cd",
+        "parameters": {
+          "flow_rate_uL_min": {
+            "value": 245.77,
+            "provenance": "paper_stated",
+            "source": "SI Supplementary Table 3, row tau = 1.00 min, Tpre 227 °C, Trxn 284 °C"
+          }
+        },
+        "duration_s": {
+          "provenance": "missing"
+        }
+      },
+      {
+        "id": "set_pump_se",
+        "description": "initial flow at tau0 = 1 min",
+        "action": "set_flow_rate",
+        "component": "pump_se",
+        "parameters": {
+          "flow_rate_uL_min": {
+            "value": 79.4,
+            "provenance": "paper_stated",
+            "source": "SI Supplementary Table 3, row tau = 1.00 min, Tpre 227 °C, Trxn 284 °C"
+          }
+        },
+        "duration_s": {
+          "provenance": "missing"
+        }
+      },
+      {
+        "id": "set_pump_cd_ode",
+        "description": "initial flow at tau0 = 1 min",
+        "action": "set_flow_rate",
+        "component": "pump_cd_ode",
+        "parameters": {
+          "flow_rate_uL_min": {
+            "value": 569.17,
+            "provenance": "paper_stated",
+            "source": "SI Supplementary Table 3, row tau = 1.00 min, Tpre 227 °C, Trxn 284 °C"
+          }
+        },
+        "duration_s": {
+          "provenance": "missing"
+        }
+      },
+      {
+        "id": "set_pump_se_ode",
+        "description": "initial flow at tau0 = 1 min",
+        "action": "set_flow_rate",
+        "component": "pump_se_ode",
+        "parameters": {
+          "flow_rate_uL_min": {
+            "value": 218.66,
+            "provenance": "paper_stated",
+            "source": "SI Supplementary Table 3, row tau = 1.00 min, Tpre 227 °C, Trxn 284 °C"
+          }
+        },
+        "duration_s": {
+          "provenance": "missing"
+        }
+      },
+      {
+        "id": "equilibrate",
+        "description": "steady state at tau0",
+        "action": "wait",
+        "parameters": {},
+        "duration_s": {
+          "value": 180.0,
+          "provenance": "inferred",
+          "note": "Main: 'the fluidic platform runs for three microreactor volumes (Vr) until steady state has been reached at ... tau0, typically set to 1min' -> 3 x 1 min"
+        }
+      },
+      {
+        "id": "ramp",
+        "description": "DFE: tau_ins = tau0 + alpha t (Main Eq. 1)",
+        "action": "residence_time_ramp",
+        "parameters": {
+          "tau0_min": {
+            "value": 1.0,
+            "provenance": "paper_stated",
+            "source": "Main: 'tau0, typically set to 1min'"
+          },
+          "alpha": {
+            "value": 0.6,
+            "provenance": "paper_stated",
+            "source": "Main: 'The choice of alpha ... maintained constant at 0.6'"
+          },
+          "volume_uL": {
+            "value": 1113.0,
+            "provenance": "paper_stated",
+            "source": "Methods: 'a 1,113-µl CFI reactor'"
+          }
+        },
+        "duration_s": {
+          "value": 1200.0,
+          "provenance": "paper_stated",
+          "source": "SI §4: 'The DFE results, shown in Figure 2 of the main text, were conducted over a duration of approximately 20 min'"
+        }
+      }
+    ],
+    "measurements": [
+      {
+        "id": "pl",
+        "instrument": "cell",
+        "observable": "pl_features",
+        "wavelength_nm": {
+          "provenance": "missing"
+        },
+        "processing": {
+          "value": "lambda_em and FWHM extracted from in-situ PL spectra in real time",
+          "provenance": "paper_stated",
+          "source": "Main; SI §6"
+        }
+      }
+    ],
+    "models": [
+      {
+        "id": "cdse_gp",
+        "family": "gaussian_process",
+        "purpose": "data-driven digital twin of the SDFL: (X1, X2, X3, tau, Tpre, Trxn) -> (lambda_em, FWHM)",
+        "inputs": [
+          {
+            "name": "X1",
+            "kind": "flow_fraction",
+            "column": "X1",
+            "definition": {
+              "value": "Cd / (Cd + CdODE)",
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 4"
+            },
+            "node": "reactor",
+            "numerator": [
+              "pump_cd"
+            ],
+            "denominator": [
+              "pump_cd",
+              "pump_cd_ode"
+            ],
+            "value": {
+              "provenance": "missing"
+            },
+            "scale": 1.0,
+            "low": {
+              "value": 0.16666666666666666,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 4"
+            },
+            "high": {
+              "value": 0.8333333333333334,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 4"
+            }
+          },
+          {
+            "name": "X2",
+            "kind": "flow_fraction",
+            "column": "X2",
+            "definition": {
+              "value": "Se / (Se + SeODE)",
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 5"
+            },
+            "node": "reactor",
+            "numerator": [
+              "pump_se"
+            ],
+            "denominator": [
+              "pump_se",
+              "pump_se_ode"
+            ],
+            "value": {
+              "provenance": "missing"
+            },
+            "scale": 1.0,
+            "low": {
+              "value": 0.16666666666666666,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 5"
+            },
+            "high": {
+              "value": 0.8333333333333334,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 5"
+            }
+          },
+          {
+            "name": "X3",
+            "kind": "flow_fraction",
+            "column": "X3",
+            "definition": {
+              "value": "(Cd + CdODE) / (Cd + CdODE + Se + SeODE)",
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 6"
+            },
+            "node": "reactor",
+            "numerator": [
+              "pump_cd",
+              "pump_cd_ode"
+            ],
+            "denominator": [
+              "pump_cd",
+              "pump_cd_ode",
+              "pump_se",
+              "pump_se_ode"
+            ],
+            "value": {
+              "provenance": "missing"
+            },
+            "scale": 1.0,
+            "low": {
+              "value": 0.16666666666666666,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 6"
+            },
+            "high": {
+              "value": 0.8333333333333334,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 6"
+            }
+          },
+          {
+            "name": "tau",
+            "kind": "residence_time",
+            "column": "Tau",
+            "definition": {
+              "value": "V_Reactor / (Cd + CdODE + Se + SeODE), V_Reactor = 1113 uL; for DFE data the steady-state-equivalent tau of Main Eq. 2",
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 7; Main Eq. 2"
+            },
+            "node": "reactor",
+            "numerator": [],
+            "denominator": [],
+            "value": {
+              "provenance": "missing"
+            },
+            "unit": "min",
+            "scale": 0.016666666666666666,
+            "low": {
+              "value": 0.5,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 7"
+            },
+            "high": {
+              "value": 10.0,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 7"
+            }
+          },
+          {
+            "name": "T_pre",
+            "kind": "temperature",
+            "column": "Tpre",
+            "definition": {
+              "value": "preheater temperature",
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 8"
+            },
+            "node": "preheater",
+            "numerator": [],
+            "denominator": [],
+            "value": {
+              "provenance": "missing"
+            },
+            "unit": "degC",
+            "scale": 1.0,
+            "low": {
+              "value": 220.0,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 8"
+            },
+            "high": {
+              "value": 290.0,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 8"
+            }
+          },
+          {
+            "name": "T_rxn",
+            "kind": "temperature",
+            "column": "Trxn",
+            "definition": {
+              "value": "reactor temperature",
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 9"
+            },
+            "node": "reactor",
+            "numerator": [],
+            "denominator": [],
+            "value": {
+              "provenance": "missing"
+            },
+            "unit": "degC",
+            "scale": 1.0,
+            "low": {
+              "value": 220.0,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 9"
+            },
+            "high": {
+              "value": 290.0,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 9"
+            }
+          }
+        ],
+        "outputs": [
+          {
+            "name": "emission_wavelength",
+            "column": "wavelength_em",
+            "unit": "nm",
+            "definition": {
+              "value": "peak PL emission wavelength",
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 10"
+            },
+            "low": {
+              "value": 450.0,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 10"
+            },
+            "high": {
+              "value": 670.0,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 10"
+            }
+          },
+          {
+            "name": "fwhm",
+            "column": "fwhm",
+            "unit": "nm",
+            "definition": {
+              "value": "PL full width at half maximum",
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 11"
+            },
+            "low": {
+              "value": 110.0,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 11"
+            },
+            "high": {
+              "value": 10.0,
+              "provenance": "paper_stated",
+              "source": "SI Supplementary Equations 4-11 (p. 31), Eq. 11"
+            }
+          }
+        ],
+        "library": {
+          "value": "BoTorch (SingleTaskGP, ModelListGP)",
+          "provenance": "paper_stated",
+          "source": "repo@aa51d1a: 'Parity Plot and Shap/ParityPlot.py': 'from botorch.models import ... SingleTaskGP'"
+        },
+        "library_version": {
+          "provenance": "missing"
+        },
+        "code": {
+          "value": "github.com/AbolhasaniLab/DynamicExperimentation@aa51d1a6a1f2d3162259309109f15d80832d1cf7",
+          "provenance": "paper_stated",
+          "source": "Main: Code availability"
+        },
+        "kernel": {
+          "value": "RBF",
+          "provenance": "paper_stated",
+          "source": "SI §6: 'utilizes a Single Task GP (radial basis function kernel) for each output parameter'"
+        },
+        "mean_function": {
+          "value": "constant (BoTorch SingleTaskGP default)",
+          "provenance": "inferred",
+          "note": "repo@aa51d1a: 'Parity Plot and Shap/ParityPlot.py' passes no mean module"
+        },
+        "likelihood": {
+          "value": "Gaussian, homoskedastic, learned noise (SingleTaskGP default)",
+          "provenance": "inferred",
+          "note": "repo@aa51d1a: 'Parity Plot and Shap/ParityPlot.py': SingleTaskGP(train_x, train_y); the CSV's y_var columns are not used"
+        },
+        "priors": {
+          "provenance": "missing"
+        },
+        "output_transform": {
+          "provenance": "missing"
+        },
+        "multi_output": {
+          "value": "one independent SingleTaskGP per output in a ModelListGP",
+          "provenance": "paper_stated",
+          "source": "SI §6: 'for each output parameter'; repo@aa51d1a: 'Parity Plot and Shap/ParityPlot.py': initialize_model"
+        },
+        "architecture": {
+          "provenance": "missing"
+        },
+        "activation": {
+          "provenance": "missing"
+        },
+        "optimizer": {
+          "provenance": "missing"
+        },
+        "learning_rate": {
+          "provenance": "missing"
+        },
+        "epochs": {
+          "provenance": "missing"
+        },
+        "batch_size": {
+          "provenance": "missing"
+        },
+        "regularization": {
+          "provenance": "missing"
+        },
+        "initialization": {
+          "provenance": "missing"
+        },
+        "hyperparameter_fitting": {
+          "value": "maximize marginal log likelihood (fit_gpytorch_model)",
+          "provenance": "paper_stated",
+          "source": "repo@aa51d1a: 'Parity Plot and Shap/ParityPlot.py'"
+        },
+        "training_data": {
+          "value": "https://raw.githubusercontent.com/AbolhasaniLab/DynamicExperimentation/aa51d1a6a1f2d3162259309109f15d80832d1cf7/Parity%20Plot%20and%20Shap/Initialization_30s_nondim.csv",
+          "provenance": "paper_stated",
+          "source": "Main: Code availability; 'Parity Plot and Shap/README.md': 'includes all LHS experiments'"
+        },
+        "training_data_sha256": "3f5d388072d390ca222e2841282a39a54b32bea5b90db844561ea8ba68c36432",
+        "training_data_normalized": true,
+        "n_training_points": {
+          "value": 234.0,
+          "provenance": "inferred",
+          "note": "rows in Initialization_30s_nondim.csv; 15 LHS DFE ramps (Main)"
+        },
+        "validation": {
+          "value": "fivefold cross-validation",
+          "provenance": "paper_stated",
+          "source": "Main Fig. 4b caption: 'Digital twin parity plot from fivefold cross-validation'"
+        },
+        "validation_protocol": {
+          "method": "kfold",
+          "folds": 5,
+          "pre_shuffle_seed": 0,
+          "split_seed": 42,
+          "metric": "pearson_r2"
+        },
+        "metric_definitions": {
+          "value": "R2 = squared Pearson correlation of out-of-fold predictions vs actuals",
+          "provenance": "paper_stated",
+          "source": "repo@aa51d1a: 'Parity Plot and Shap/ParityPlot.py': 'r2 = np.corrcoef(act, pred)[0, 1] ** 2'"
+        },
+        "seeds": {
+          "value": "data.sample(frac=1, random_state=0); KFold(n_splits=5, shuffle=True, random_state=42); GP fitting seed not set",
+          "provenance": "paper_stated",
+          "source": "repo@aa51d1a: 'Parity Plot and Shap/ParityPlot.py'"
+        }
+      }
+    ],
+    "claims": [
+      {
+        "id": "cv_r2_em",
+        "metric": "cv_r2_emission_wavelength",
+        "value": 0.967,
+        "qualifier": "=",
+        "tolerance": 0.01,
+        "tolerance_basis": "assumed: reported to 3 decimals; GP refits are not bit-exact",
+        "at": {},
+        "source": "Main Fig. 4b legend: 'FWHM (R2 = 0.988)', 'em (R2 = 0.967)'"
+      },
+      {
+        "id": "cv_r2_fwhm",
+        "metric": "cv_r2_fwhm",
+        "value": 0.988,
+        "qualifier": "=",
+        "tolerance": 0.01,
+        "tolerance_basis": "assumed: reported to 3 decimals; GP refits are not bit-exact",
+        "at": {},
+        "source": "Main Fig. 4b legend: 'FWHM (R2 = 0.988)', 'em (R2 = 0.967)'"
+      },
+      {
+        "id": "ssfe_em_tau1",
+        "metric": "emission_wavelength",
+        "value": 544.9,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 4.1,
+        "tolerance_basis": "SI §4: RMSE of DFE-mapped vs independent SSFE lambda_em = 4.1 nm",
+        "conditions": "steady state at tau = 1 min, X1 = 0.30, X2 = 0.27, X3 = 0.73, Tpre 227 °C, Trxn 284 °C",
+        "at": {
+          "tau": 1.0
+        },
+        "source": "SI Supplementary Table 2, row 1 (SSFE column); rows 1-7 are the seven SSFEs of Main Fig. 2"
+      },
+      {
+        "id": "dfe_em_tau1",
+        "metric": "emission_wavelength",
+        "value": 542.5,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 1.9,
+        "tolerance_basis": "Main: DFE replicate SD '~1.9nm for lambda_em' per 1.15-s mapped interval",
+        "conditions": "DFE ramp mapped to tau = 1 min (Main Eq. 2), Fig. 2 condition",
+        "at": {
+          "tau": 1.0
+        },
+        "source": "SI Supplementary Table 2, row 1 (DFE column). The GP was trained on this ramp, so the twin is not independent of this value"
+      },
+      {
+        "id": "ssfe_em_tau2",
+        "metric": "emission_wavelength",
+        "value": 556.5,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 4.1,
+        "tolerance_basis": "SI §4: RMSE of DFE-mapped vs independent SSFE lambda_em = 4.1 nm",
+        "conditions": "steady state at tau = 2 min, X1 = 0.30, X2 = 0.27, X3 = 0.73, Tpre 227 °C, Trxn 284 °C",
+        "at": {
+          "tau": 2.0
+        },
+        "source": "SI Supplementary Table 2, row 2 (SSFE column); rows 1-7 are the seven SSFEs of Main Fig. 2"
+      },
+      {
+        "id": "dfe_em_tau2",
+        "metric": "emission_wavelength",
+        "value": 554.8,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 1.9,
+        "tolerance_basis": "Main: DFE replicate SD '~1.9nm for lambda_em' per 1.15-s mapped interval",
+        "conditions": "DFE ramp mapped to tau = 2 min (Main Eq. 2), Fig. 2 condition",
+        "at": {
+          "tau": 2.0
+        },
+        "source": "SI Supplementary Table 2, row 2 (DFE column). The GP was trained on this ramp, so the twin is not independent of this value"
+      },
+      {
+        "id": "ssfe_em_tau3",
+        "metric": "emission_wavelength",
+        "value": 562.5,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 4.1,
+        "tolerance_basis": "SI §4: RMSE of DFE-mapped vs independent SSFE lambda_em = 4.1 nm",
+        "conditions": "steady state at tau = 3 min, X1 = 0.30, X2 = 0.27, X3 = 0.73, Tpre 227 °C, Trxn 284 °C",
+        "at": {
+          "tau": 3.0
+        },
+        "source": "SI Supplementary Table 2, row 3 (SSFE column); rows 1-7 are the seven SSFEs of Main Fig. 2"
+      },
+      {
+        "id": "dfe_em_tau3",
+        "metric": "emission_wavelength",
+        "value": 563.4,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 1.9,
+        "tolerance_basis": "Main: DFE replicate SD '~1.9nm for lambda_em' per 1.15-s mapped interval",
+        "conditions": "DFE ramp mapped to tau = 3 min (Main Eq. 2), Fig. 2 condition",
+        "at": {
+          "tau": 3.0
+        },
+        "source": "SI Supplementary Table 2, row 3 (DFE column). The GP was trained on this ramp, so the twin is not independent of this value"
+      },
+      {
+        "id": "ssfe_em_tau4",
+        "metric": "emission_wavelength",
+        "value": 571.9,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 4.1,
+        "tolerance_basis": "SI §4: RMSE of DFE-mapped vs independent SSFE lambda_em = 4.1 nm",
+        "conditions": "steady state at tau = 4 min, X1 = 0.30, X2 = 0.27, X3 = 0.73, Tpre 227 °C, Trxn 284 °C",
+        "at": {
+          "tau": 4.0
+        },
+        "source": "SI Supplementary Table 2, row 4 (SSFE column); rows 1-7 are the seven SSFEs of Main Fig. 2"
+      },
+      {
+        "id": "dfe_em_tau4",
+        "metric": "emission_wavelength",
+        "value": 570.3,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 1.9,
+        "tolerance_basis": "Main: DFE replicate SD '~1.9nm for lambda_em' per 1.15-s mapped interval",
+        "conditions": "DFE ramp mapped to tau = 4 min (Main Eq. 2), Fig. 2 condition",
+        "at": {
+          "tau": 4.0
+        },
+        "source": "SI Supplementary Table 2, row 4 (DFE column). The GP was trained on this ramp, so the twin is not independent of this value"
+      },
+      {
+        "id": "ssfe_em_tau5",
+        "metric": "emission_wavelength",
+        "value": 572.4,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 4.1,
+        "tolerance_basis": "SI §4: RMSE of DFE-mapped vs independent SSFE lambda_em = 4.1 nm",
+        "conditions": "steady state at tau = 5 min, X1 = 0.30, X2 = 0.27, X3 = 0.73, Tpre 227 °C, Trxn 284 °C",
+        "at": {
+          "tau": 5.0
+        },
+        "source": "SI Supplementary Table 2, row 5 (SSFE column); rows 1-7 are the seven SSFEs of Main Fig. 2"
+      },
+      {
+        "id": "dfe_em_tau5",
+        "metric": "emission_wavelength",
+        "value": 576.4,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 1.9,
+        "tolerance_basis": "Main: DFE replicate SD '~1.9nm for lambda_em' per 1.15-s mapped interval",
+        "conditions": "DFE ramp mapped to tau = 5 min (Main Eq. 2), Fig. 2 condition",
+        "at": {
+          "tau": 5.0
+        },
+        "source": "SI Supplementary Table 2, row 5 (DFE column). The GP was trained on this ramp, so the twin is not independent of this value"
+      },
+      {
+        "id": "ssfe_em_tau6",
+        "metric": "emission_wavelength",
+        "value": 577.6,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 4.1,
+        "tolerance_basis": "SI §4: RMSE of DFE-mapped vs independent SSFE lambda_em = 4.1 nm",
+        "conditions": "steady state at tau = 6 min, X1 = 0.30, X2 = 0.27, X3 = 0.73, Tpre 227 °C, Trxn 284 °C",
+        "at": {
+          "tau": 6.0
+        },
+        "source": "SI Supplementary Table 2, row 6 (SSFE column); rows 1-7 are the seven SSFEs of Main Fig. 2"
+      },
+      {
+        "id": "dfe_em_tau6",
+        "metric": "emission_wavelength",
+        "value": 579.7,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 1.9,
+        "tolerance_basis": "Main: DFE replicate SD '~1.9nm for lambda_em' per 1.15-s mapped interval",
+        "conditions": "DFE ramp mapped to tau = 6 min (Main Eq. 2), Fig. 2 condition",
+        "at": {
+          "tau": 6.0
+        },
+        "source": "SI Supplementary Table 2, row 6 (DFE column). The GP was trained on this ramp, so the twin is not independent of this value"
+      },
+      {
+        "id": "ssfe_em_tau7",
+        "metric": "emission_wavelength",
+        "value": 580.4,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 4.1,
+        "tolerance_basis": "SI §4: RMSE of DFE-mapped vs independent SSFE lambda_em = 4.1 nm",
+        "conditions": "steady state at tau = 7 min, X1 = 0.30, X2 = 0.27, X3 = 0.73, Tpre 227 °C, Trxn 284 °C",
+        "at": {
+          "tau": 7.0
+        },
+        "source": "SI Supplementary Table 2, row 7 (SSFE column); rows 1-7 are the seven SSFEs of Main Fig. 2"
+      },
+      {
+        "id": "dfe_em_tau7",
+        "metric": "emission_wavelength",
+        "value": 582.5,
+        "unit": "nm",
+        "qualifier": "=",
+        "tolerance": 1.9,
+        "tolerance_basis": "Main: DFE replicate SD '~1.9nm for lambda_em' per 1.15-s mapped interval",
+        "conditions": "DFE ramp mapped to tau = 7 min (Main Eq. 2), Fig. 2 condition",
+        "at": {
+          "tau": 7.0
+        },
+        "source": "SI Supplementary Table 2, row 7 (DFE column). The GP was trained on this ramp, so the twin is not independent of this value"
+      }
+    ]
+  },
+  "gaps": [
+    {
+      "id": "extraction:models.cdse_gp.inputs.X1",
+      "target": "models.cdse_gp.inputs.X1",
+      "description": "'X1, X2, X3' name both the raw flow fractions (Main: 'X1 = 0.30, X2 = 0.27, X3 = 0.73') and the GP's normalized inputs (SI Eqs. 4-6: X1 = (Cd/(Cd+CdODE) - 1/6)/(5/6 - 1/6))",
+      "detected_by": "extraction",
+      "blocking": false,
+      "status": "open",
+      "resolutions": []
+    },
+    {
+      "id": "extraction:models.cdse_gp.training_data",
+      "target": "models.cdse_gp.training_data",
+      "description": "Main: training data sampled 'at a constant temporal spacing of 30s', but consecutive rows of each ramp in Initialization_30s_nondim.csv step tau by 0.5 min, which at alpha = 0.6 is ~75 s of measurement time (Main Eq. 2); confirm the sampling",
+      "detected_by": "extraction",
+      "blocking": false,
+      "status": "open",
+      "resolutions": []
+    },
+    {
+      "id": "extraction:protocol.ramp",
+      "target": "protocol.ramp",
+      "description": "the dead volume Vd used in Main Eq. 2 is not stated (228 uL reactor-to-detector line assumed)",
+      "detected_by": "extraction",
+      "blocking": false,
+      "status": "open",
+      "resolutions": []
+    },
+    {
+      "id": "extraction:models.cdse_gp.kernel",
+      "target": "models.cdse_gp.kernel",
+      "description": "SI §6 states an RBF kernel, but the code builds SingleTaskGP with library defaults and calls fit_gpytorch_model (an older BoTorch API). In BoTorch < 0.12 that default kernel is Matern-5/2, not RBF; the BoTorch version is not reported, so which kernel ran is ambiguous",
+      "detected_by": "extraction",
+      "blocking": false,
+      "status": "open",
+      "resolutions": []
+    },
+    {
+      "id": "comparison:claims.cv_r2_em",
+      "target": "claims.cv_r2_em",
+      "description": "rebuilt GP (234 rows, the paper's seeds) gives CV R2 lambda_em 0.986-0.988 and FWHM 0.956-0.966 across BoTorch defaults and scikit-learn; the paper reports lambda_em 0.967 and FWHM 0.988, i.e. the same values with the Fig. 4b legend labels exchanged. Confirm with the authors",
+      "detected_by": "comparison",
+      "blocking": false,
+      "status": "open",
+      "resolutions": []
+    }
+  ]
+}

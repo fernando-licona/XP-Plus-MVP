@@ -1,0 +1,26 @@
+[
+  {
+    "target": "rig.components.res_dye.contents.sudan_blue_ii",
+    "value": 1.0,
+    "provenance": "assumed",
+    "note": "not reported; any value works because the response is normalized to an F-curve"
+  },
+  {
+    "target": "rig.components.tee.volume_uL",
+    "value": 2.0,
+    "provenance": "assumed",
+    "note": "IDEX U-428 internal volume not given in the paper; datasheet value to be confirmed. Negligible next to the 1113 uL reactor"
+  },
+  {
+    "target": "protocol.equilibrate.duration_s",
+    "value": 1620.0,
+    "provenance": "inferred",
+    "note": "3 reactor volumes, the steady-state criterion the main text uses for DFEs ('runs for three microreactor volumes (Vr) until steady state')"
+  },
+  {
+    "target": "protocol.record.duration_s",
+    "value": 2460.0,
+    "provenance": "assumed",
+    "note": "4 tau plus 5 min, enough for the step to clear the reactor and the 228 uL line"
+  }
+]

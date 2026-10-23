@@ -1,0 +1,11 @@
+{
+  "runner": "recorded",
+  "run_id": "toy-bench-001",
+  "observations": {
+    "residence_time": {"value": 9.4, "unit": "min"}
+  },
+  "evidence": [
+    {"kind": "raw_data", "uri": "file:examples/toy_flow_paper/observations.json",
+     "description": "SYNTHETIC placeholder observation, not a real measurement"}
+  ]
+}

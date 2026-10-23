@@ -1,0 +1,644 @@
+{
+  "features": {
+    "paper": {
+      "title": "Flow-driven data intensification to accelerate autonomous inorganic materials discovery",
+      "doi": "10.1038/s44286-025-00249-z",
+      "authors": [
+        "F. Delgado-Licona",
+        "A. Alsaiari",
+        "H. Dickerson",
+        "P. Klem",
+        "A. Ghorai",
+        "R. B. Canty",
+        "J. A. Bennett",
+        "P. Jha",
+        "N. Mukhin",
+        "J. Li",
+        "E. A. López-Guajardo",
+        "S. Sadeghi",
+        "F. Bateni",
+        "M. Abolhasani"
+      ],
+      "year": 2025
+    },
+    "experiment": "SI §1 RTD step experiment, nominal tau = 0.5 min",
+    "rig": {
+      "components": [
+        {
+          "id": "res_dye",
+          "kind": "reservoir",
+          "name": "Sudan Blue II in ODE (syringe)",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {
+            "sudan_blue_ii": {
+              "provenance": "missing"
+            }
+          }
+        },
+        {
+          "id": "res_ode",
+          "kind": "reservoir",
+          "name": "pure ODE (syringe)",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "pump_dye",
+          "kind": "pump",
+          "manufacturer": {
+            "value": "Chemyx",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "model": {
+            "value": "Fusion 6000",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "pump_ode",
+          "kind": "pump",
+          "manufacturer": {
+            "value": "Chemyx",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "model": {
+            "value": "Fusion 6000",
+            "provenance": "inferred",
+            "note": "Methods: 'five computer-controlled syringe pumps (Chemyx Fusion 6000)'. SI §1 does not name the pumps used for the RTD runs; assumed to be the same fluid delivery module."
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "tee",
+          "kind": "mixer",
+          "name": "T-mixer",
+          "manufacturer": {
+            "value": "IDEX",
+            "provenance": "paper_stated",
+            "source": "SI §1: 'a T-mixer (IDEX, U-428)'"
+          },
+          "model": {
+            "value": "U-428",
+            "provenance": "paper_stated",
+            "source": "SI §1: 'a T-mixer (IDEX, U-428)'"
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "reactor",
+          "kind": "reactor",
+          "name": "coil flow inverter (CFI) microreactor",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "value": "stainless steel",
+            "provenance": "paper_stated",
+            "source": "Methods: 'The reaction module was fabricated using stainless steel tubing'"
+          },
+          "inner_diameter_mm": {
+            "value": 0.762,
+            "provenance": "paper_stated",
+            "source": "Methods: '0.0625-inch outer diameter×0.03-inch inner diameter; IDEX U-190'; SI §1: 'Di = 0.762 mm'"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "value": 1113.0,
+            "provenance": "paper_stated",
+            "source": "Methods: 'a 1,113-µl CFI reactor with DC of 3.175mm'"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "value": 250.0,
+            "provenance": "paper_stated",
+            "source": "SI §1: 'All RTD experiments were conducted with the flow reactor maintained at 250 °C'"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "provenance": "missing"
+          },
+          "contents": {}
+        },
+        {
+          "id": "cell",
+          "kind": "detector",
+          "name": "custom three-port flow cell; Ocean Insight HDX spectrometer; BAL 2000 light source",
+          "manufacturer": {
+            "provenance": "missing"
+          },
+          "model": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          },
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "volume_uL": {
+            "provenance": "missing"
+          },
+          "flow_rate_uL_min": {
+            "provenance": "missing"
+          },
+          "temperature_C": {
+            "provenance": "missing"
+          },
+          "pressure_bar": {
+            "provenance": "missing"
+          },
+          "path_length_mm": {
+            "provenance": "missing"
+          },
+          "wavelength_nm": {
+            "value": 647.0,
+            "provenance": "paper_stated",
+            "source": "SI §1: 'in-situ UV-Vis absorption spectroscopy at 647 nm'"
+          },
+          "contents": {}
+        }
+      ],
+      "connections": [
+        {
+          "src": "res_dye",
+          "dst": "pump_dye",
+          "direct": true,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "res_ode",
+          "dst": "pump_ode",
+          "direct": true,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "pump_dye",
+          "dst": "tee",
+          "direct": false,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "pump_ode",
+          "dst": "tee",
+          "direct": false,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "tee",
+          "dst": "reactor",
+          "direct": false,
+          "inner_diameter_mm": {
+            "provenance": "missing"
+          },
+          "length_mm": {
+            "provenance": "missing"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "src": "reactor",
+          "dst": "cell",
+          "direct": false,
+          "inner_diameter_mm": {
+            "value": 0.762,
+            "provenance": "inferred",
+            "note": "228 uL over 50 cm gives ID = 0.762 mm, the same 0.03-inch tubing as the reactor"
+          },
+          "length_mm": {
+            "value": 500.0,
+            "provenance": "paper_stated",
+            "source": "Methods: 'The in situ characterization module was placed 50cm (228-µl) downstream of the flow reactor module'"
+          },
+          "material": {
+            "provenance": "missing"
+          }
+        }
+      ]
+    },
+    "chemistry": {
+      "reagents": [
+        {
+          "name": "sudan_blue_ii",
+          "role": "tracer",
+          "concentration_M": {
+            "provenance": "missing"
+          },
+          "supplier": {
+            "value": "Sigma-Aldrich",
+            "provenance": "paper_stated",
+            "source": "Methods: Chemicals ... 'procured from Sigma-Aldrich'"
+          },
+          "purity": {
+            "value": "98%",
+            "provenance": "paper_stated",
+            "source": "Methods: 'Sudan blue II (98%)'"
+          },
+          "lot": {
+            "provenance": "missing"
+          }
+        },
+        {
+          "name": "1-octadecene",
+          "role": "solvent",
+          "concentration_M": {
+            "provenance": "missing"
+          },
+          "supplier": {
+            "value": "Sigma-Aldrich",
+            "provenance": "paper_stated",
+            "source": "Methods: Chemicals"
+          },
+          "purity": {
+            "value": "90%",
+            "provenance": "paper_stated",
+            "source": "Methods: 'ODE (90%)'"
+          },
+          "lot": {
+            "provenance": "missing"
+          }
+        }
+      ],
+      "solvent": {
+        "value": "1-octadecene (ODE)",
+        "provenance": "paper_stated",
+        "source": "SI §1: 'Sudan Blue II in 1-octadecene (ODE) and pure ODE'"
+      }
+    },
+    "environment": {
+      "ambient_temperature_C": {
+        "provenance": "missing"
+      },
+      "relative_humidity_pct": {
+        "provenance": "missing"
+      },
+      "ambient_pressure_kPa": {
+        "provenance": "missing"
+      },
+      "other": {}
+    },
+    "protocol": [
+      {
+        "id": "start_ode",
+        "description": "initial ratio ODE : dye = 3 : 1",
+        "action": "set_flow_rate",
+        "component": "pump_ode",
+        "parameters": {
+          "flow_rate_uL_min": {
+            "value": 1669.5,
+            "provenance": "inferred",
+            "note": "total flow = V_R / tau = 1113 uL / 0.5 min = 2226.00 uL/min (SI §1: nominal times 'calculated from the flow reactor volume and the set volumetric flow rates'), split 3:1 (SI §1)"
+          }
+        },
+        "duration_s": {
+          "provenance": "missing"
+        }
+      },
+      {
+        "id": "start_dye",
+        "description": "initial ratio ODE : dye = 3 : 1",
+        "action": "set_flow_rate",
+        "component": "pump_dye",
+        "parameters": {
+          "flow_rate_uL_min": {
+            "value": 556.5,
+            "provenance": "inferred",
+            "note": "total flow = V_R / tau = 1113 uL / 0.5 min = 2226.00 uL/min (SI §1: nominal times 'calculated from the flow reactor volume and the set volumetric flow rates'), split 3:1 (SI §1)"
+          }
+        },
+        "duration_s": {
+          "provenance": "missing"
+        }
+      },
+      {
+        "id": "equilibrate",
+        "description": "'the system was first allowed to reach a steady state'",
+        "action": "wait",
+        "parameters": {},
+        "duration_s": {
+          "provenance": "missing"
+        }
+      },
+      {
+        "id": "step_ode",
+        "description": "step change to ODE : dye = 1 : 3",
+        "action": "set_flow_rate",
+        "component": "pump_ode",
+        "parameters": {
+          "flow_rate_uL_min": {
+            "value": 556.5,
+            "provenance": "inferred",
+            "note": "total flow = V_R / tau = 1113 uL / 0.5 min = 2226.00 uL/min (SI §1: nominal times 'calculated from the flow reactor volume and the set volumetric flow rates'), split 1:3 (SI §1)"
+          }
+        },
+        "duration_s": {
+          "provenance": "missing"
+        }
+      },
+      {
+        "id": "step_dye",
+        "description": "step change to ODE : dye = 1 : 3",
+        "action": "set_flow_rate",
+        "component": "pump_dye",
+        "parameters": {
+          "flow_rate_uL_min": {
+            "value": 1669.5,
+            "provenance": "inferred",
+            "note": "total flow = V_R / tau = 1113 uL / 0.5 min = 2226.00 uL/min (SI §1: nominal times 'calculated from the flow reactor volume and the set volumetric flow rates'), split 1:3 (SI §1)"
+          }
+        },
+        "duration_s": {
+          "provenance": "missing"
+        }
+      },
+      {
+        "id": "record",
+        "description": "record the step response",
+        "action": "wait",
+        "parameters": {},
+        "duration_s": {
+          "provenance": "missing"
+        }
+      }
+    ],
+    "measurements": [
+      {
+        "id": "rtd",
+        "instrument": "cell",
+        "observable": "f_curve",
+        "species": "sudan_blue_ii",
+        "wavelength_nm": {
+          "value": 647.0,
+          "provenance": "paper_stated",
+          "source": "SI §1"
+        },
+        "processing": {
+          "value": "detector response normalized 0-1 (F-curve), regressed against SI Eq. 1 with Levenberg-Marquardt (SciPy curve_fit) for Bo and t_avg",
+          "provenance": "paper_stated",
+          "source": "SI §1"
+        },
+        "t0_step": "step_ode"
+      }
+    ],
+    "claims": [
+      {
+        "id": "tau_nominal",
+        "metric": "residence_time",
+        "value": 0.5,
+        "unit": "min",
+        "qualifier": "=",
+        "source": "SI §1: 'nominal residence times of 0.5 min and 9 min'"
+      },
+      {
+        "id": "t_avg",
+        "metric": "mean_residence_time",
+        "value": 0.5,
+        "unit": "min",
+        "qualifier": "=",
+        "source": "SI Fig. 1 caption: 'The regressed parameters indicate an average residence time (tavg) of 0.5 min and 8.7 min, respectively; and a Bo number of 301.8 and 216.5'"
+      },
+      {
+        "id": "bo",
+        "metric": "bodenstein_number",
+        "value": 301.8,
+        "qualifier": "=",
+        "source": "SI Fig. 1 caption: 'The regressed parameters indicate an average residence time (tavg) of 0.5 min and 8.7 min, respectively; and a Bo number of 301.8 and 216.5'"
+      }
+    ]
+  },
+  "gaps": [
+    {
+      "id": "extraction:claims.bo",
+      "target": "claims.bo",
+      "description": "SI §1 text gives Bo = 301.8 and 216.5 'for residence times of 1 min and 9 min'; the SI Fig. 1 caption gives them for 0.5 min and 9 min",
+      "detected_by": "extraction",
+      "blocking": false,
+      "status": "open",
+      "resolutions": []
+    },
+    {
+      "id": "extraction:measurements.rtd.processing",
+      "target": "measurements.rtd.processing",
+      "description": "time origin of the F-curve not stated: is t measured from the pump step, and is the 228 uL reactor-to-detector line (~1.8 min at tau = 9 min) subtracted from t_avg?",
+      "detected_by": "extraction",
+      "blocking": false,
+      "status": "open",
+      "resolutions": []
+    },
+    {
+      "id": "extraction:claims.tau_nominal",
+      "target": "claims.tau_nominal",
+      "description": "nominal tau uses flow rates set at the (room-temperature) syringe pumps; ODE expands at 250 °C, so the in-reactor residence time is shorter. Whether this is corrected for is not stated",
+      "detected_by": "extraction",
+      "blocking": false,
+      "status": "open",
+      "resolutions": []
+    },
+    {
+      "id": "extraction:environment",
+      "target": "environment",
+      "description": "ambient temperature, humidity and syringe / tracer-solution age not reported",
+      "detected_by": "extraction",
+      "blocking": false,
+      "status": "open",
+      "resolutions": []
+    }
+  ]
+}
